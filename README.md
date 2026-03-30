@@ -46,6 +46,9 @@ Source Roadmap:
 
 For information on synchronizing your source tree with one or more of the FreeBSD Project's development branches, please see [FreeBSD Handbook](https://docs.freebsd.org/en/books/handbook/cutting-edge/#current-stable).
 
+**WELCOME TO BUNNYBSD!**
+
+
 BunnyBSD Table Of Contents:
 | Introduction |
 | Contributing |
