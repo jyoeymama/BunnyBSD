@@ -54,14 +54,21 @@ For information on synchronizing your source tree with one or more of the FreeBS
 
 
 
-BunnyBSD Table Of Contents:
-----------------
-| Introduction |
-| Contributing |
-| Policy |
-| Supporters |
-| Extended Documentation |
---------------------------
+**BunnyBSD Table Of Contents:**
+
+**|--------------|**
+
+**| Introduction |**
+
+**| Contributing |**
+
+**| Policy |**
+
+**| Supporters |**
+
+**| Extended Documentation |**
+
+**|------------------------|**
 
 **Introduction:**
 
