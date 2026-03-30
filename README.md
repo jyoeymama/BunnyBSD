@@ -52,6 +52,8 @@ For information on synchronizing your source tree with one or more of the FreeBS
 <img width="1014" height="980" alt="BunnyBSDLogoFixed" src="https://github.com/user-attachments/assets/df8861b5-0581-47e5-8923-c8c08ad3e17c" />
 
 
+
+
 BunnyBSD Table Of Contents:
 | Introduction |
 | Contributing |
