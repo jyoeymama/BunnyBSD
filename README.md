@@ -45,3 +45,6 @@ Source Roadmap:
 | usr.sbin | System administration commands. |
 
 For information on synchronizing your source tree with one or more of the FreeBSD Project's development branches, please see [FreeBSD Handbook](https://docs.freebsd.org/en/books/handbook/cutting-edge/#current-stable).
+
+
+BunnyBSD is a completley open source operating system based on FreeBSD.
