@@ -56,7 +56,7 @@ For information on synchronizing your source tree with one or more of the FreeBS
 
 **BunnyBSD Table Of Contents:**
 
-**|--------------|**
+**|------------------------|**
 
 **| Introduction |**
 
