@@ -74,7 +74,8 @@ NAME="$1"; shift
 # MAKEFSARG extracted already
 shift
 
-publisher="The FreeBSD Project.  https://www.FreeBSD.org/"
+# Old publisher was The FreeBSD Project. Which was changed to BunnyBSD
+publisher="The BunnyBSD Project."
 echo "/dev/iso9660/$LABEL / cd9660 ro 0 0" > "$BASEBITSDIR/etc/fstab"
 if [ -n "${METALOG}" ]; then
 	metalogfilename=$(mktemp /tmp/metalog.XXXXXX)
