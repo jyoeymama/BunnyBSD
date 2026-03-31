@@ -1,0 +1,19 @@
+Policy:
+
+Welcome to the Policy section of BunnyBSD. Our policy includes things such as our stance on age verification, AI usage within BunnyBSD and more.
+
+Age Verification:
+
+Age verification has been becoming more and more widespread and this hurts things like Linux distros and BSD distros. 
+Many of you may wonder what my stance on age verification is. My stance on age verification is that this is garbage and that these laws must be stopped.
+To our users/supporters of BunnyBSD, WE WILL NEVER ADD AGE VERIFICATION OR ANY OTHER TYPE OR SURVALIANCE EVER!
+I, jyomama28, REFUSE AGE VERIFICATION AND ALL ATTEMPTS TO CRIMILIZE ME AS A OPERATING SYSTEM DEVELOPER!
+BunnyBSD will remain a safe space where our users/supporters can always trust. 
+BunnyBSD will always remain YOUR operating system and I believe that the user should get to decide what happens to this operating system. 
+I will keep this repository public for all to use no matter what state, country, etc.
+
+AI usage within BunnyBSD:
+
+AI usage within BunnyBSD is **STRICTLY PROHIBITIED!** 
+Any use with AI will result in a automatic decline from myself or any other maintainer. 
+Any code, exploit proof of concept demonstration, or merge request containing AI or AI written code will be declined.
