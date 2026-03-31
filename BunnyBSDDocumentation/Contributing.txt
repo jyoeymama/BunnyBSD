@@ -1,0 +1,21 @@
+Contributing:
+
+BunnyBSD needs contributors like you! You can help advance BunnyBSD. We need lots of people for help with contributation.
+We need: Hackers/Bug hunters, Developers, and Maintainers. 
+If you would like to help with contributation on BunnyBSD, simply create a pull request, change the code or modify it, and then finally merge with the main BunnyBSD repository.
+
+Hackers/Bug hunters: Hello, I am jyomama28, I am the head developer of BunnyBSD and I need your help! 
+If you would like to assist with the development of BunnyBSD you can start right away! 
+You may look through all the source code to help us hunt for bugs and vulnrabillities that need to be patched. 
+Once you believe you have found a bug/exploit/vulnrabittly you can go ahead and make a post in the issues tab. 
+All things pertaining to finding exploits/bugs/vulnrabillities must be put in the issues tab and labeled as a bug/exploit/vulnrabillity. 
+You must provide written evidence and a proof of concept. You must be able to demonstrate or show the bug/exploit/vulnrabillity. 
+Once you have found a bug I or any other developer will go through and patch it.
+**WARNING: ANYTHING WRITTEN BY AI, SPOTTED BY AI WILL RESULT IN A AUTOMATIC DECLINE AND I WILL REFUSE TO LOOK AT YOUR ISSUE IF I CAN TELL YOU USED AI.**
+
+Developers: Hello developers! I need your help! If you would like to assist with the development of BunnyBSD simply create a pull request, fix, modify, or change the code and then get your changes reviewed. 
+I will look at the changes and either accept or decline a request to merge it with the main repository. 
+Please keep in mind that absolutley ANY usage of AI will result in a automatic decline. If I decline your merge request then I will make sure to tell you why and always provide you a description.
+
+Maintainers: Hello maintainers! I need your help! If you would like to assist with maintiang things such as issues, bugs, or merge requests please feel free to help! 
+If you would like to become a maintainer of BunnyBSD then please send me an email at: jyomama28@gmail.com so I can give you the nessesary permissions to change/look at things on the BunnyBSD repository.
