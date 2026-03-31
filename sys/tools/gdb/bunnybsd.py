@@ -51,7 +51,7 @@ def pcpu_foreach():
 
 
 def tid_to_gdb_thread(tid):
-    """Convert a FreeBSD kernel thread ID to a gdb inferior thread."""
+    """Convert a BunnyBSD kernel thread ID to a gdb inferior thread."""
     for thread in gdb.inferiors()[0].threads():
         if thread.ptid[2] == tid:
             return thread
@@ -60,7 +60,7 @@ def tid_to_gdb_thread(tid):
 
 
 def tdfind(tid, pid=-1):
-    """Convert a FreeBSD kernel thread ID to a struct thread pointer."""
+    """Convert a BunnyBSD kernel thread ID to a struct thread pointer."""
     td = tdfind.cached_threads.get(int(tid))
     if td:
         return td
