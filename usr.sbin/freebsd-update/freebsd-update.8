@@ -24,11 +24,11 @@
 .\" POSSIBILITY OF SUCH DAMAGE.
 .\"
 .Dd March 9, 2026
-.Dt FREEBSD-UPDATE 8
+.Dt BUNNYBSD-UPDATE 8
 .Os
 .Sh NAME
-.Nm freebsd-update
-.Nd fetch and install binary updates to FreeBSD
+.Nm bunnybsd-update
+.Nd fetch and install binary updates to BunnyBSD
 .Sh SYNOPSIS
 .Nm
 .Op Fl F
@@ -74,11 +74,11 @@ They are not available for branches such as PRERELEASE, STABLE, and CURRENT,
 e.g.:
 .Bl -item -offset indent -compact
 .It
-.Fx 13.0-PRERELEASE
+.Fx 1.0-PRERELEASE
 .It
-.Fx 13.1-STABLE
+.Fx 1.0-STABLE
 .It
-.Fx 14.0-CURRENT
+.Fx 1.0-CURRENT
 .El
 .Pp
 In particular, the
@@ -99,13 +99,13 @@ or as given in the configuration file.)
 Store working files in
 .Ar workdir .
 (default:
-.Pa /var/db/freebsd-update/ ,
+.Pa /var/db/bunnybsd-update/ ,
 or as given in the configuration file.)
 .It Fl f Ar conffile
 Read configuration options from
 .Ar conffile .
 (default:
-.Pa /etc/freebsd-update.conf )
+.Pa /etc/bunnybsd-update.conf )
 .It Fl F
 Force
 .Nm Cm fetch
