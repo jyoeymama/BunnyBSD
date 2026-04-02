@@ -1,7 +1,7 @@
 .include <bsd.init.mk>
 
-FILES+=	freebsd-brand-rev.png freebsd-brand.png freebsd-install-brand-rev.png \
-	freebsd-logo-rev.png
+FILES+=	bunnybsd-brand-rev.png bunnybsd-brand.png bunnybsd-install-brand-rev.png \
+	bunnybsd-logo-rev.png
 
 FILESDIR=  /boot/images
 
