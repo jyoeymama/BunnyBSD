@@ -56,19 +56,15 @@ For information on synchronizing your source tree with one or more of the FreeBS
 
 **BunnyBSD Table Of Contents:**
 
-**|------------------------|**
-
-**| Introduction |**
-
-**| Contributing |**
-
-**| Policy |**
-
-**| Supporters |**
-
-**| Extended Documentation |**
-
-**|------------------------|**
+**|-----------------------------------|**
+**| Documentation | Short description |**
+**| Introduction  | An introduction to BunnyBSD |**
+**| Contributing | An introduction to the contributing process |**
+**| Policy | Our policy |**
+**| Supporters | How you can support BunnyBSD |**
+**| Extended Documentation | Furthur documentation for BunnyBSD |**
+**| Future Updates | Provides context for future changes and updates to BunnyBSD |**
+**|------------------------------------------------------------------------------|**
 
 **Introduction:**
 
@@ -110,4 +106,8 @@ Hello supporters! Thank you for supporting BunnyBSD. If you would like to suppor
 **Extended Documentation:**
 
 Our extended documentation can be found in our BunnyBSD Documentation folder on this repository! More will continue to show up there and I will continue to add more things to support our extended documentation to help our users/supporters on BunnyBSD.
+
+**Future Updates**
+
+Hello! I am jyomama28, the main developer for BunnyBSD. I have many things that I would like to update. I will make a nice list below of things that will be changed or updated:
 
