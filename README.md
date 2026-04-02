@@ -109,14 +109,13 @@ Our extended documentation can be found in our BunnyBSD Documentation folder on 
 **Future Updates**
 
 
-
-| Updates | Short reason for update or change |
-|---------------------------------------|
-| UI Updates | I would like to add the xfce UI preinstalled to make BunnyBSD a nice, appealing desktop for all users and remove the hassel of adding a UI yourself |
-| Installer Updates | I would like to keep the main installer but making things easier to install and add more options for the user to install if they so choose |
+| Updates                              | Short reason for update or change                                                                 |
+|--------------------------------------|---------------------------------------------------------------------------------------------------|
+| UI Updates                           | I would like to add the xfce UI preinstalled to make BunnyBSD a nice, appealing desktop for all users and remove the hassel of adding a UI yourself |
+| Installer Updates                    | I would like to keep the main installer but making things easier to install and add more options for the user to install if they so choose |
 | Broad Support For All Computers And Computer Types | I would like to keep the large support and have BunnyBSD be able to run on just about anything |
-| Automatic wifi detection | I would like to add automatic wifi detection for the user within the installer to be able to install packages that the user needs/wants |
-| Automatic driver detection | I would like to add an automatic driver detection for all hardware and removing time consuming configuration |
+| Automatic wifi detection             | I would like to add automatic wifi detection for the user within the installer to be able to install packages that the user needs/wants |
+| Automatic driver detection           | I would like to add an automatic driver detection for all hardware and removing time consuming configuration |
 
 
 
