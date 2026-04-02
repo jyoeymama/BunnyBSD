@@ -108,7 +108,7 @@ Our extended documentation can be found in our BunnyBSD Documentation folder on 
 
 **Future Updates**
 
-<div align="center">
+
 
 | Updates | Short reason for update or change |
 |---------------------------------------|
@@ -118,7 +118,7 @@ Our extended documentation can be found in our BunnyBSD Documentation folder on 
 | Automatic wifi detection | I would like to add automatic wifi detection for the user within the installer to be able to install packages that the user needs/wants |
 | Automatic driver detection | I would like to add an automatic driver detection for all hardware and removing time consuming configuration |
 
-</div>
+
 
 **Please remember, if you do not like any of these updates or changes, you may drop an issue into the issues tab of this repository. Make sure to label your issue as Issue With Future Update and provide a good reason why we should stop or remove a future update. I want this to be a desktop that caters to ALL users and opposing things such as future updates should and always will be the USERS choice!**
 
