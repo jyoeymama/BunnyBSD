@@ -108,6 +108,8 @@ Our extended documentation can be found in our BunnyBSD Documentation folder on 
 
 **Future Updates**
 
+Hello! I am jyomama28, the main developer for BunnyBSD. I have many things that I would like to update. I will make a nice list below of things that will be changed or updated:
+
 
 | Updates                              | Short reason for update or change                                                                 |
 |--------------------------------------|---------------------------------------------------------------------------------------------------|
@@ -120,7 +122,3 @@ Our extended documentation can be found in our BunnyBSD Documentation folder on 
 
 
 **Please remember, if you do not like any of these updates or changes, you may drop an issue into the issues tab of this repository. Make sure to label your issue as Issue With Future Update and provide a good reason why we should stop or remove a future update. I want this to be a desktop that caters to ALL users and opposing things such as future updates should and always will be the USERS choice!**
-
-
-Hello! I am jyomama28, the main developer for BunnyBSD. I have many things that I would like to update. I will make a nice list below of things that will be changed or updated:
-
