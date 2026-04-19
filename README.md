@@ -118,6 +118,7 @@ Hello! I am jyomama28, the main developer for BunnyBSD. I have many things that 
 | Broad Support For All Computers And Computer Types | I would like to keep the large support and have BunnyBSD be able to run on just about anything |
 | Automatic wifi detection             | I would like to add automatic wifi detection for the user within the installer to be able to install packages that the user needs/wants |
 | Automatic driver detection           | I would like to add an automatic driver detection for all hardware and removing time consuming configuration |
+| Test ISO's For You To Test!          | I would like to create a few test isos so all of you guys may test it for bugs and mess with the isos however you wish. The first test iso is being created and I am working hard on it! |
 
 
 
