@@ -1,0 +1,13 @@
+**Supported Arcitectures**
+
+BunnyBSD has several supported arcitectures which are listed below:
+
+amd64
+arm64
+i386
+aarch64
+armv6
+armv7
+mips
+powerpc
+riscv64
