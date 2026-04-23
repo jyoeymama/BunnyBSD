@@ -1,6 +1,8 @@
-**Supported Arcitectures**
+**Supported Architectures**
 
-BunnyBSD has several supported arcitectures which are listed below:
+BunnyBSD has several supported architectures which are listed below:
+
+(I personally am mainly working on amd64 architecture because it supports most modern computers )
 
 amd64
 arm64
