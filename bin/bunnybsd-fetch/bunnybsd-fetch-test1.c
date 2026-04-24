@@ -37,7 +37,7 @@
 
 int main(int argc, char *argv[]) {
 system(bunnybsd-version);
-system("bash ./bunnybsd-fetch.sh");
+system("bash ./bunnybsd-fetch-test1.sh");
 printf(" ######                             ######   #####  ######  \n");
 printf(" #     # #    # #    # #    # #   # #     # #     # #     # \n");
 printf(" #     # #    # ##   # ##   #  # #  #     # #       #     # \n");
