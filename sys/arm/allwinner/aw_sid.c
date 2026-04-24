@@ -85,6 +85,7 @@ static struct aw_sid_efuse a10_efuses[] = {
 	},
 };
 
+// Having this rootkey here in this struct could be unsecure but I will look further into this later. -Jyomama28.
 static struct aw_sid_efuse a64_efuses[] = {
 	{
 		.name = "rootkey",
