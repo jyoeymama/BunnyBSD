@@ -1,1 +1,5 @@
+Here is a list to show supported cryptography algorithims that will be used in BunnyBSD:
 
+AES
+Blowfish
+Two Fish
