@@ -51,7 +51,7 @@ Philippians 4:13
 #include <string.h>
 #include <crypt.h>
 
-int main (argc, *argv[]) {
+int main (int argc, char *argv[]) {
 printf("Encrypt any file with one simple command!\n");
 printf("Types of encryption: \n");
 printf("1. base64, 2. xor, 3. aes-256\n");
@@ -80,7 +80,7 @@ printf("Using chacha20 to encrypt your file. Please wait.\n");
 } else if (enctype == 6) {
 printf("Using rsa to encrypt your file. Please wait.\n");
 } else {
-printf("Error: Must choose options 1-6);
+printf("Error: Must choose options 1-6\n");
 }
     
 return 0; 
