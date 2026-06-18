@@ -46,10 +46,13 @@ Philippians 4:13
 "I can do all things through Him who gives me strength"
 
 */
+
+//WE GOT OURSELVES A SEG FAULT
+//UPDATE: Seg fault found. I missed the & symbol when doing my scanf bruh classic rookie mistake lol.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <crypt.h>
 
 int main (int argc, char *argv[]) {
 printf("Encrypt any file with one simple command!\n");
@@ -58,10 +61,11 @@ printf("1. base64, 2. xor, 3. aes-256\n");
 printf("4. blowfish, 5. chahca20, 6. rsa\n");
 
 int enctype;
-scanf("%d\n", enctype);
+scanf("%d\n", &enctype);
 
 if (enctype == 1) {
 printf("Using base64 to encrypt your file. Please wait.\n");
+
 /*
 char b64table[] = "abcdefghijklomnpqrstuvwxyzABCDEFGHIJKLOMNPQRSTUVWXYZ1234567890+/=";
 char* b64 encode(const unsigned char* data) {
@@ -69,6 +73,7 @@ int choice;
 scanf("%d\n", &choice);
 return encoded_string;
 */
+
 } else if (enctype == 2) {
 printf("Using xor to encrypt your file. Please wait.\n");
 } else if (enctype == 3) {
