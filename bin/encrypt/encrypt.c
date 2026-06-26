@@ -64,6 +64,7 @@ int enctype;
 scanf("%d\n", &enctype);
 
 if (enctype == 1) {
+printf("You chose base64. Please go to the proper directory with the file you want to encrypt.\n");
 printf("Using base64 to encrypt your file. Please wait.\n");
 
 /*
@@ -75,14 +76,21 @@ return encoded_string;
 */
 
 } else if (enctype == 2) {
+printf("WARNING: Xor can be cracked! Use at your own risk!\n");
+printf("You chose xor. Please go to the proper directory with the file you want to encrypt.\n");
 printf("Using xor to encrypt your file. Please wait.\n");
 } else if (enctype == 3) {
+printf("You chose aes-256. Please go to the proper directory with the file you want to encrypt.\n");
 printf("Using aes-256 to encrypt your file. Please wait.\n");
 } else if (enctype == 4) {
+printf("You chose blowfish. Please go to the proper directory with the file you want to encrypt.\n");
 printf("Using blowfish to encrypt your file. Please wait.\n");
 } else if (enctype == 5) {
+printf("You chose chacha20. Please go to the proper directory with the file you want to encrypt.\n");
 printf("Using chacha20 to encrypt your file. Please wait.\n");
 } else if (enctype == 6) {
+printf("WARNING: Rsa can be cracked! Use at your own risk!\n");
+printf("You chose rsa. Please go to the proper directory with the file you want to encrypt.\n");
 printf("Using rsa to encrypt your file. Please wait.\n");
 } else {
 printf("Error: Must choose options 1-6\n");
