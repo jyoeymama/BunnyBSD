@@ -56,6 +56,7 @@ Philippians 4:13
 
 int main (int argc, char *argv[]) {
 printf("Encrypt any file with one simple command!\n");
+printf("WARNING: MUST BE ROOT TO RUN THIS COMMAND!\n");
 printf("Types of encryption: \n");
 printf("1. base64, 2. xor, 3. aes-256\n");
 printf("4. blowfish, 5. chahca20, 6. rsa\n");
