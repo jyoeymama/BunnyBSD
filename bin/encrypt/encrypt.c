@@ -75,27 +75,39 @@ int choice;
 scanf("%d\n", &choice);
 return encoded_string;
 */
-
+	
 } else if (enctype == 2) {
 printf("WARNING: Xor can be cracked! Use at your own risk!\n");
 printf("You chose xor. Please go to the proper directory with the file you want to encrypt.\n");
-printf("Using xor to encrypt your file. Please wait.\n");
+//printf("Using xor to encrypt your file. Please wait.\n");
 } else if (enctype == 3) {
 printf("You chose aes-256. Please go to the proper directory with the file you want to encrypt.\n");
-printf("Using aes-256 to encrypt your file. Please wait.\n");
+//printf("Using aes-256 to encrypt your file. Please wait.\n");
 } else if (enctype == 4) {
 printf("You chose blowfish. Please go to the proper directory with the file you want to encrypt.\n");
-printf("Using blowfish to encrypt your file. Please wait.\n");
+//printf("Using blowfish to encrypt your file. Please wait.\n");
 } else if (enctype == 5) {
 printf("You chose chacha20. Please go to the proper directory with the file you want to encrypt.\n");
-printf("Using chacha20 to encrypt your file. Please wait.\n");
+//printf("Using chacha20 to encrypt your file. Please wait.\n");
 } else if (enctype == 6) {
 printf("WARNING: Rsa can be cracked! Use at your own risk!\n");
 printf("You chose rsa. Please go to the proper directory with the file you want to encrypt.\n");
-printf("Using rsa to encrypt your file. Please wait.\n");
+//printf("Using rsa to encrypt your file. Please wait.\n");
 } else {
 printf("Error: Must choose options 1-6\n");
 }
-    
+	
+int option;
+printf("Are you in the correct directory with the file you want to encrypt? (1 = yes, 2 = no) \n");
+scanf("%d\n", &option);
+
+if (option == 1) {
+printf("Great, please link to the correct file\n");
+} else if (option == 2) {
+printf("Please go to the correct directory with the file that you want to encrypt\n");
+} else {
+printf("Error: Must choose options 1 or 2\n");
+}
+
 return 0; 
 }
