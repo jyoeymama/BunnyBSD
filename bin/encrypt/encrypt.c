@@ -69,12 +69,42 @@ printf("You chose base64. Please go to the proper directory with the file you wa
 printf("Using base64 to encrypt your file. Please wait.\n");
 
 /*
+ * I will be making a list of each table or general information before I start writing the main foundation of each encryption algorithim to reduce brain meltage lol.
+ * BASE64 
 char b64table[] = "abcdefghijklomnpqrstuvwxyzABCDEFGHIJKLOMNPQRSTUVWXYZ1234567890+/=";
 char* b64 encode(const unsigned char* data) {
 int choice;
 scanf("%d\n", &choice);
 return encoded_string;
 */
+
+/*
+ * XOR
+ * char key = "B" <-- this is a rough base for the key, I will later add an option to where you can change the key to whatever you like
+ */
+
+/* 
+ * AES-256
+ * For aes-256 I will be using an external library written in c for aes-256 called Tiny AES in C. Credit to these very smart people go to this repository I found on github: https://github.com/kokke/tiny-AES-c
+ */
+
+/*
+ * BLOWFISH
+ * For blowfish I will be referring to this repository: https://github.com/Musashii-kun/blowfish
+ */
+
+/*
+ * CHACHA20
+ * For chacha20 I will be reffering to this repository: https://github.com/Ginurx/chacha20-c/tree/master
+ */
+
+/*
+ * RSA
+ * Public keys: n, e
+ * Private keys: n, d
+ * I will have a strong an unbreakable way to generate both keys. WARNING: RSA CAN BE CRACKED! USE AT YOUR OWN RISK!
+ */
+
 	
 } else if (enctype == 2) {
 printf("WARNING: Xor can be cracked! Use at your own risk!\n");
