@@ -130,9 +130,10 @@ printf("Error: Must choose options 1-6\n");
 int option;
 printf("Are you in the correct directory with the file you want to encrypt? (1 = yes, 2 = no) \n");
 scanf("%d\n", &option);
-
+	
 if (option == 1) {
 printf("Great, please link to the correct file\n");
+printf("Type the file name: \n);
 } else if (option == 2) {
 printf("Please go to the correct directory with the file that you want to encrypt\n");
 } else {
