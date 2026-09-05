@@ -34,29 +34,7 @@
  * To explain this program, basically im testing to  see wheather i can type a full filename and see if it renders the period in the file (for example filename.txt)
  *                                                                                                                                                             ^
  *                                                                                                                                                             |
- * Always gotta add a bible verse to make this program even cooler B)                                                                                                                                                         That thingy
-
- * Todays verse:
- *
- * Exodus 20:8 
- *
- * “Remember the Sabbath day, to keep it holy.”
- *
- *      _
- *     | |
- *  ___| |__  
- * |___   __|
- *     | |
- *     | |
- *     |_|
- *
- *     _                       ___       _  ___             _ 
- *    | | ___  ___ _   _ ___  |_ _|___  | |/ (_)_ __   __ _| |
- * _  | |/ _ \/ __| | | / __|  | |/ __| | ' /| | '_ \ / _` | |
- *| |_| |  __/\__ \ |_| \__ \  | |\__ \ | . \| | | | | (_| |_|
- * \___/ \___||___/\__,_|___/ |___|___/ |_|\_\_|_| |_|\__, (_)
- *                                                    |___/   
- * Jyomama28!
+ * Jyomama28 Is King!
  */    
 
 
