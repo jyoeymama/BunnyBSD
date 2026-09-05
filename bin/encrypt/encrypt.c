@@ -33,18 +33,6 @@ Explonation of how this command should work:
 1. Choose an option of a type of encryption,
 2. Choose a file to encrypt (using the directory that you are in because C dosent like backslashes for full directories because formatting specifier blah blah blah.
 
-Another thing:
-
-I am a Chrisitan and I need to start posting these in my code so other developers who read this crappy code may read this Bible verse as well.
-Jesus saved my life so I must repay him with what I do with my time and that is programming!
-I understand that not every developer is a Christian but if you are not I encourage you to try reading the Bible as it might change your life like it did for me!
-
-I also understand that having my own operating system is a crazy dream but I plan to turn this dream into a reality!
-
-Philippians 4:13
-
-"I can do all things through Him who gives me strength"
-
 */
 
 //WE GOT OURSELVES A SEG FAULT
