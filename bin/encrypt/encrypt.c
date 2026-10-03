@@ -37,6 +37,7 @@ Explonation of how this command should work:
 
 //WE GOT OURSELVES A SEG FAULT
 //UPDATE: Seg fault found. I missed the & symbol when doing my scanf bruh classic rookie mistake lol.
+//WARNING: Still many bugs!
 
 #include <stdio.h>
 #include <stdlib.h>
