@@ -46,15 +46,15 @@ int main (int argc, char *argv[]) {
 printf("Encrypt any file with one simple command!\n");
 printf("WARNING: MUST BE ROOT TO RUN THIS COMMAND!\n");
 printf("Types of encryption: \n");
-printf("1. base64, 2. xor, 3. aes-256\n");
-printf("4. blowfish, 5. chahca20, 6. rsa\n");
+printf("1. BASE64, 2. XOR, 3. AES-256\n");
+printf("4. BLOWFISH, 5. RSA-2048\n");
 
 int enctype;
 scanf("%d\n", &enctype);
 
 if (enctype == 1) {
-printf("You chose base64. Please go to the proper directory with the file you want to encrypt.\n");
-printf("Using base64 to encrypt your file. Please wait.\n");
+printf("You chose BASE64. Please go to the proper directory with the file you want to encrypt.\n");
+printf("Using BASE64 to encrypt your file. Please wait.\n");
 
 /*
  * I will be making a list of each table or general information before I start writing the main foundation of each encryption algorithim to reduce brain meltage lol.
@@ -84,6 +84,7 @@ return encoded_string;
 /*
  * CHACHA20
  * For chacha20 I will be reffering to this repository: https://github.com/Ginurx/chacha20-c/tree/master
+ * In this case I will use chacha20 for encrypted communications and NOT for files.
  */
 
 /*
@@ -91,28 +92,33 @@ return encoded_string;
  * Public keys: n, e
  * Private keys: n, d
  * I will have a strong an unbreakable way to generate both keys. WARNING: RSA CAN BE CRACKED! USE AT YOUR OWN RISK!
+ * I will later make an option to choose how many bits you want. The strongest for RSA right now is probably RSA-2048 bit encryption but people are saying that quantum computers can crack this but idk.
  */
 
 	
 } else if (enctype == 2) {
-printf("WARNING: Xor can be cracked! Use at your own risk!\n");
-printf("You chose xor. Please go to the proper directory with the file you want to encrypt.\n");
-//printf("Using xor to encrypt your file. Please wait.\n");
+printf("WARNING: XOR can potentially be cracked! Use at your own risk!\n");
+printf("You chose XOR. Please go to the proper directory with the file you want to encrypt.\n");
+//printf("Using XOR to encrypt your file. Please wait.\n");
 } else if (enctype == 3) {
-printf("You chose aes-256. Please go to the proper directory with the file you want to encrypt.\n");
-//printf("Using aes-256 to encrypt your file. Please wait.\n");
+printf("You chose AES-256. Please go to the proper directory with the file you want to encrypt.\n");
+//printf("Using AES-256 to encrypt your file. Please wait.\n");
 } else if (enctype == 4) {
-printf("You chose blowfish. Please go to the proper directory with the file you want to encrypt.\n");
-//printf("Using blowfish to encrypt your file. Please wait.\n");
-} else if (enctype == 5) {
+printf("You chose BLOWFISH. Please go to the proper directory with the file you want to encrypt.\n");
+//printf("Using BLOWFISH to encrypt your file. Please wait.\n");
+} 
+/*
+else if (enctype == 5) {
 printf("You chose chacha20. Please go to the proper directory with the file you want to encrypt.\n");
-//printf("Using chacha20 to encrypt your file. Please wait.\n");
-} else if (enctype == 6) {
-printf("WARNING: Rsa can be cracked! Use at your own risk!\n");
-printf("You chose rsa. Please go to the proper directory with the file you want to encrypt.\n");
-//printf("Using rsa to encrypt your file. Please wait.\n");
+printf("Using chacha20 to encrypt your file. Please wait.\n");
+}
+*/
+else if (enctype == 5) {
+printf("WARNING: RSA-2048 can potentially be cracked! Use at your own risk!\n");
+printf("You chose RSA-2048. Please go to the proper directory with the file you want to encrypt.\n");
+//printf("Using RSA to encrypt your file. Please wait.\n");
 } else {
-printf("Error: Must choose options 1-6\n");
+printf("Error: Must choose options 1-5\n");
 }
 	
 int option;
@@ -121,7 +127,7 @@ scanf("%d\n", &option);
 	
 if (option == 1) {
 printf("Great, please link to the correct file\n");
-printf("Type the file name: \n);
+printf("Type the file name: \n");
 } else if (option == 2) {
 printf("Please go to the correct directory with the file that you want to encrypt\n");
 } else {
