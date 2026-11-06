@@ -26,6 +26,8 @@
  * SUCH DAMAGE.
  *
  * Crappy code written by jyomama28. Email me at: jyoeymama@proton.me
+ * This is a very rough base but I am going to make a header file that I can use to bootstrap my custom commands to the os itself.
+ * Still figureing this all out, seriously this stuff hurts my brain but I will figure it out! I dont have this Gigachad profile picture for nothing!
  */
 
 #ifndef BOOTSTRAP
