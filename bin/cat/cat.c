@@ -108,8 +108,7 @@ static int udom_open(const char *path, int flags);
 
 #ifndef NO_UDOM_SUPPORT
 static void
-init_casper_net(cap_channel_t *casper)
-{
+init_casper_net(cap_channel_t *casper) {
 	cap_net_limit_t *limit;
 	int familylimit;
 
@@ -131,8 +130,7 @@ init_casper_net(cap_channel_t *casper)
 #endif
 
 static void
-init_casper(int argc, char *argv[])
-{
+init_casper(int argc, char *argv[]) {
 	cap_channel_t *casper;
 	cap_rights_t rights;
 
@@ -154,8 +152,7 @@ init_casper(int argc, char *argv[])
 }
 
 int
-main(int argc, char *argv[])
-{
+main(int argc, char *argv[]) {
 	int ch;
 	struct flock stdout_lock;
 
@@ -220,8 +217,7 @@ main(int argc, char *argv[])
 }
 
 static void
-usage(void)
-{
+usage(void) {
 
 	fprintf(stderr, "usage: cat [-" SUPPORTED_FLAGS "] [file ...]\n");
 	exit(1);
@@ -229,8 +225,7 @@ usage(void)
 }
 
 static void
-scanfiles(char *argv[], int cooked __unused)
-{
+scanfiles(char *argv[], int cooked __unused) {
 	int fd, i;
 	char *path;
 #ifndef BOOTSTRAP_CAT
@@ -287,8 +282,7 @@ scanfiles(char *argv[], int cooked __unused)
 
 #ifndef BOOTSTRAP_CAT
 static void
-cook_cat(FILE *fp)
-{
+cook_cat(FILE *fp) {
 	int ch, gobble, line, prev;
 	wint_t wch;
 
@@ -377,8 +371,7 @@ ilseq:
 }
 
 static ssize_t
-in_kernel_copy(int rfd)
-{
+in_kernel_copy(int rfd) {
 	int wfd;
 	ssize_t ret;
 
@@ -393,8 +386,7 @@ in_kernel_copy(int rfd)
 #endif /* BOOTSTRAP_CAT */
 
 static void
-raw_cat(int rfd)
-{
+raw_cat(int rfd) {
 	long pagesize;
 	int off, wfd;
 	ssize_t nr, nw;
@@ -434,8 +426,7 @@ raw_cat(int rfd)
 #ifndef NO_UDOM_SUPPORT
 
 static int
-udom_open(const char *path, int flags)
-{
+udom_open(const char *path, int flags) {
 	struct addrinfo hints, *res, *res0;
 	char rpath[PATH_MAX];
 	int error, fd, serrno;
