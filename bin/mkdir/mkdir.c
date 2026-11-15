@@ -47,8 +47,7 @@ static void	usage(void);
 static int	vflag;
 
 int
-main(int argc, char *argv[])
-{
+main(int argc, char *argv[]) {
 	int ch, exitval, success, pflag;
 	mode_t omode;
 	void *set = NULL;
@@ -124,8 +123,7 @@ main(int argc, char *argv[])
  * 2 if it already existed, and 0 on failure.
  */
 static int
-build(char *path, mode_t omode)
-{
+build(char *path, mode_t omode) {
 	struct stat sb;
 	mode_t numask, oumask;
 	int first, last, retval;
